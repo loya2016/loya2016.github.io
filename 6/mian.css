@@ -1,0 +1,13 @@
+h1 {
+    font-family: "微软雅黑";
+    color: red;
+    font-weight: 400;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.noindent {
+    text-indent: 0;
+}
