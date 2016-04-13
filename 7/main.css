@@ -1,0 +1,31 @@
+a:link{
+	color:blue;
+}
+a:visited{
+	color:#eee;
+}
+a:hover{
+	background-color:red;
+	color:black;
+}
+a:active{
+	font-size:24px;
+}
+body{
+	background-color:#ccc;
+	background-image:url(bj.jpg);
+	background-position:50% 50%;
+}
+h1{
+	background-color:rgba(255, 255, 255, 0.1);
+	color:#eee;
+	padding:10px;
+	border:1px rgba(200, 0, 0, 0.5) solid;
+	margin:10px auto;
+	width:200px;
+}
+div{
+	height:400px;
+	border:1px red solid;
+	background-color:rgba(0, 0, 0, 0.3);
+}
