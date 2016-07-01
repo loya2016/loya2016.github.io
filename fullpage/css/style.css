@@ -249,8 +249,8 @@ body {
 }
 
 .section1 {
-    background: url(../images/bg1.png) 0 50% repeat-x;
-    background: linear-gradient(#FA8072, #FA8072);
+    /*background: url(../images/bg1.png) 0 50% repeat-x;*/
+    background: linear-gradient(#0C5BD0, #033A8A);
 }
 
 .logo1 {
@@ -411,10 +411,10 @@ body {
     background: url(../images/bg3-3.png) 50% 10% no-repeat;
     opacity: 0;
     transition: all 1s;
-}d
-d
-.bg3-4 .bg {d
-    background: url(../dimages/bg3-4.png) 50% 10% no-repeat;
+}
+
+.bg3-4 .bg {
+    background: url(../images/bg3-4.png) 50% 10% no-repeat;
     opacity: 0;
     transition: all 1s;
 }
@@ -786,7 +786,7 @@ d
 
 .active .left4-1,
 .ltie10 .left4-1 {
-    right: 0;
+    left: 0;
     opacity: 1;
     transition: all 1s ease 1.5s;
 }
@@ -875,7 +875,6 @@ d
     width: 361px;
     height: 69px;
     background-image: url(../images/qtcode.png);
-    
 }
 
 .godown {

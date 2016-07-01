@@ -1,0 +1,215 @@
+html,
+body {
+	.section {
+    position: relative;
+    overflow: hidden;
+}
+
+.section .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.middle {
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1 {
+    background: url(../images/bg1.png) 0 50% repeat-x;
+    background: linear-gradient(#FA8072, #FA8072);
+}
+
+.logo1 {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 20;
+    width: 169px;
+    height: 65px;
+    margin-left: -85px;
+    text-indent: -9999px;
+    background-image: url(../images/logo.png);
+    overflow: hidden;
+}
+
+.bg1-3 {
+    opacity: 0;
+    background: url(../images/bg1-3.png) 50% 50% no-repeat;
+}
+
+.left1 {
+    position: absolute;
+    left: -200%;
+    top: 50%;
+    width: 444px;
+    height: 514px;
+    margin: -260px 0 0 -50px;
+    background-image: url(../images/l1.png);
+}
+
+.right1 {
+    position: absolute;
+    left: 200%;
+    top: 50%;
+    width: 655px;
+    height: 658px;
+    margin: -300px 0 0 -70px;
+    background-image: url(../images/r1.png);
+}
+.section2 {
+    background: url(../images/bg2.png) 0 50% repeat-x;
+}
+
+.logo2 {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    z-index: 20;
+    width: 326px;
+    height: 82px;
+    margin-left: -163px;
+    text-indent: -9999px;
+    background: url(../images/logo.png) 0 -99px;
+    overflow: hidden;
+}
+
+.bg2-1 {
+    background: url(../images/bg2-1.png) 50% 50% no-repeat;
+}
+
+.bg2-2 {
+    background: url(../images/bg2-2.png) 50% 50% no-repeat;
+}
+
+.bg2-3 {
+    background: url(../images/bg2-3.png) 50% -300% no-repeat;
+    transition: all 1.5s;
+}
+
+.left2 {
+    position: absolute;
+    left: -200%;
+    top: 50%;
+    width: 830px;
+    height: 558px;
+    margin: -253px 0 0 -80px;
+    background: url(../images/l2.png) 0 0 no-repeat;
+}
+
+.left2-1 {
+    position: absolute;
+    left: 0;
+    top: 53px;
+    width: 487px;
+    height: 366px;
+    background-image: url(../images/l2-1.png);
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.left2-2 {
+    position: absolute;
+    left: -10px;
+    top: 75px;
+    width: 510px;
+    height: 396px;
+    background-image: url(../images/l2-2.png);
+    opacity: 0;
+}
+
+.right2 {
+    position: absolute;
+    left: 200%;
+    top: 50%;
+    width: 593px;
+    height: 518px;
+    margin-top: -269px;
+    background-image: url(../images/r2.png);
+}
+
+.tip {
+    position: absolute;
+    left: 300%;
+    top: 50%;
+    width: 331px;
+    height: 194px;
+    margin-top: -170px;
+    background-image: url(../images/tip.png);
+    opacity: 0;
+}
+
+.hand {
+    position: absolute;
+    left: 300%;
+    top: 50%;
+    width: 331px;
+    height: 194px;
+    margin-top: -170px;
+    background-image: url(../images/hand.png);
+}
+
+.section3 {
+    background: url(../images/bg3.png) 0 50% repeat-x;
+}
+
+.logo3 {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    width: 257px;
+    height: 65px;
+    margin-left: -149px;
+    text-indent: -9999px;
+    background: url(../images/logo.png) 0 -199px;
+    overflow: hidden;
+}
+
+.bg3-1 {
+    background: url(../images/bg3-1.png) 50% 50% no-repeat;
+}
+
+.bg3-2 {
+    background: url(../images/bg3-2.png) 50% 50% no-repeat;
+}
+
+.bg3-3 {
+    background: url(../images/bg3-3.png) 50% 10% no-repeat;
+    opacity: 0;
+    transition: all 1s;
+}d
+d
+.bg3-4 .bg {d
+    background: url(../dimages/bg3-4.png) 50% 10% no-repeat;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.left3 {
+    position: absolute;
+    left: -200%;
+    top: 50%;
+    width: 602px;
+    height: 244px;
+    margin: -122px 0 0 -50px;
+    background: url(../images/l3.png) 50% 50% no-repeat;
+}
+
+.right3 {
+    position: absolute;
+    left: 200%;
+    top: 50%;
+    width: 519px;
+    height: 630px;
+    margin: -315px 0 0 50px;
+    background-image: url(../images/r3.png);
+}
+
+
+}
