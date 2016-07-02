@@ -249,8 +249,9 @@ body {
 }
 
 .section1 {
-    /*background: url(../images/bg1.png) 0 50% repeat-x;*/
-    background: linear-gradient(#0C5BD0, #033A8A);
+    /* background: url(../images/bg01.png) 0 50% repeat-x; */
+    /* background: linear-gradient(#D3D3D3, #033A8A); */
+    background: linear-gradient(#D3D3D3, #000000);
 }
 
 .logo1 {
@@ -292,7 +293,8 @@ body {
 }
 
 .section2 {
-    background: url(../images/bg2.png) 0 50% repeat-x;
+    background: url(../images/bg02.png) 0 50% repeat-x;
+    /* background: linear-gradient(#D3D3D3, #033A8A); */
 }
 
 .logo2 {
@@ -384,7 +386,8 @@ body {
 }
 
 .section3 {
-    background: url(../images/bg3.png) 0 50% repeat-x;
+    background: url(../images/bg03-2.png) 0 50% repeat-x;
+    /* background: url(../images/bg03-1.png) 0 50% repeat-x; */
 }
 
 .logo3 {
@@ -422,17 +425,17 @@ body {
 .left3 {
     position: absolute;
     left: -200%;
-    top: 50%;
+    top: 82%;
     width: 602px;
     height: 244px;
-    margin: -122px 0 0 -50px;
+    margin: -142px 0 0 -50px;
     background: url(../images/l3.png) 50% 50% no-repeat;
 }
 
 .right3 {
     position: absolute;
     left: 200%;
-    top: 50%;
+    top: 82%;
     width: 519px;
     height: 630px;
     margin: -315px 0 0 50px;
@@ -440,7 +443,7 @@ body {
 }
 
 .section4 {
-    background: url(../images/bg4.png) 0 50% repeat-x;
+    background: url(../images/bg04.png) 0 50% repeat-x;
 }
 
 .logo4 {
@@ -557,7 +560,7 @@ body {
 }
 
 .section5 {
-    background: #fff url(../images/bg5.png) 0 50% repeat-x;
+    background: #fff url(../images/bg05.png) 0 50% repeat-x;
 }
 
 .logo5 {
@@ -592,7 +595,7 @@ body {
 .left5 {
     position: absolute;
     left: -200%;
-    top: 50%;
+    top: 40%;
     width: 588px;
     height: 505px;
     margin: -253px 0 0 -80px;
@@ -602,7 +605,7 @@ body {
 .right5 {
     position: absolute;
     left: 200%;
-    top: 50%;
+    top: 65%;
     width: 600px;
     height: 408px;
     margin-top: -204px;
@@ -875,6 +878,9 @@ body {
     width: 361px;
     height: 69px;
     background-image: url(../images/qtcode.png);
+    /* top: 830px; */
+    /* left:1730px 1030px; */
+  
 }
 
 .godown {
